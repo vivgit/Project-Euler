@@ -1,0 +1,24 @@
+strings
+C functions
+-------------------------
+strcpy(s1, s2)  copies s2 into s1
+strcat(s1, s2)  concats s2 to the end of s1
+strlen()        returns the length of the string
+strcmp()        0 if both are equal, ...
+
+C++ functions
+------------------------
++ operator can be used to concat strings
+simple = operator can be used for coping the strings
+size()  return the length of the string
+strings in cpp supports [subsripting]
+
+mathematical functions
+fmin(float,float)
+fmax(float,float)
+log       -base e
+log10     -base 10
+pow(base, exponent)
+sqrt(double)
+ceil(double)
+floor(double)

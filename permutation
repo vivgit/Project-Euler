@@ -1,0 +1,42 @@
+abbc
+
+rightmost which is smaller than next character- 'b' (first character)
+the smallest to right of first character larger than itself- 'c' (ceiling)
+
+swap ceiling and the first character
+
+abcb
+
+sort the substring in ascending order starting after original index of first character
+
+abcb
+
+Again, the first character=> 'b'
+ceiling is 'c'
+swapping
+sort the substring after original index of first character
+acbb
+
+Again, the first character 'a'= 0
+ceiling character 'b'= 3
+swapping ceiling and first character =bcba
+sort the substring after original index of first character
+babc
+
+Again, the first character 'b'= 2
+ceiling character 'c'= 3
+swapping ceiling and first character =bacb
+sort the substring after original index of first character
+bacb
+
+Again, the first character 'a'= 1
+ceiling character 'b'= 3
+swapping ceiling and first character = bbca
+sort the substring after original index of first character
+bbac
+
+Again, the first character is 'a'= 2
+ceiling character is 'c'= 3
+swapping ceiling and first character = bbca
+sort the substring after original index of first character
+bbca
